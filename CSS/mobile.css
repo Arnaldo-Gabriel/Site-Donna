@@ -1,0 +1,95 @@
+html,body{
+    width: 100%;
+}
+
+#navbar {
+    height: 200px;
+}
+
+.navbar-container {
+    flex-direction: column;
+    padding: 66px 0;
+}
+
+.navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.navbar-items li:nth-child(2) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+i#icone{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.582);
+    color: #333;
+    cursor: pointer;
+}
+i#icone:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Showcase */
+
+.showcase-container {
+    padding: 20px;
+}
+
+/* Nossos Parceiros */
+
+.clients-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.client {
+    width: 50%;
+    margin: 25px;
+}
+
+/* O que fazemos */
+
+.features-container {
+    grid-template-columns: 1fr;
+}
+
+.features-container .feature:nth-child(2) {
+    margin: 15px 0;
+}
+
+/* Nosso Produto */
+
+.product-container {
+    flex-direction: column;
+}
+
+.items {
+    width: 100%;
+}
+
+.item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Nossos usuários */
+
+.testmonial {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* Games */
+
+.games-container {
+    grid-template-columns: 1fr;
+}
